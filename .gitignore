@@ -1,0 +1,38 @@
+# ===== Python 캐시/빌드 파일 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+build/
+dist/
+*.egg-info/
+*.spec   # pyinstaller 등에서 생기는 파일
+
+# ===== 가상환경 =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== IDE/에디터 =====
+.vscode/
+.idea/
+
+# ===== 로그/임시 파일 =====
+*.log
+*.tmp
+*.swp
+
+# ===== 보안/환경설정 =====
+.env              # 로그인 정보 있음 → 반드시 제외
+activate.txt      # 가상환경 실행용 스크립트는 올리지 않아도 됨
+
+# ===== 데이터 파일 =====
+*.db
+*.xlsx
+
+mp_lamp.gif
+mvpicture.py
